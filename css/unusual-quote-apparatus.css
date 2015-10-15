@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  font-family: Georgia;
+  background-color: #EDFEDF;
+  background: url("http://s12.postimg.org/ygz8lk3r1/randomquotemachine.jpg");
+  background-size: cover;
+  width: 700px;
+  margin: 50px auto;
+}
+
+h1 { 
+  font-family: Delius;
+  text-align: center;
+  font-size: 3em;
+  color: #444;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.4);
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+p {
+  text-align: left;
+  font-family: Georgia;
+  font-size: 1.2em;
+}
+
+.button {
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #CCC;
+  font-size: 18px;
+  color: #444; 
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 25px solid darken(#CCC, 80%);
+  background: #FFF;
+  margin: 20px;
+  font-family: Delius, serif;
+  font-size: 2em;
+}
+
+.button:hover {
+  background: #E1DFDF;
+  border: 3px outset #CCC;
+  transform: scale(1.1);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0, 0.5);
+}
+
+.quote {
+  text-align: center;
+  font-family: Georgia;
+  font-size: 1.5em;
+  background-color: #999;
+  padding: 20px;
+  margin: 0 auto;
+  width: 700px;
+  border-radius: 10px;
+  color: #FFF;
+  box-shadow: -10px 10px 20px rgba(100, 100, 100, 0.8);
+}
+
+.author {
+  font-style: italic;
+}
