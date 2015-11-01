@@ -60,8 +60,39 @@ p {
   border-radius: 10px;
   color: #FFF;
   box-shadow: -10px 10px 20px rgba(100, 100, 100, 0.8);
+  margin-bottom: 200px;
 }
 
 .author {
   font-style: italic;
+}
+
+footer {
+  margin-top: 100px;
+  background: #999;
+  width: 800px;
+  height: 100px;
+  padding: 5px;
+  border: 2px;
+  border-radius: 20px;
+  align: center;
+  font-family: Dosis;
+  margin-left: -35px;
+}
+
+footer p, a {
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  padding: 10px; 
+  font-family: Dosis;
+}
+
+footer ul li {
+  margin-left: 10px;
+  border: 2px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #FFF;
+  display: inline; 
 }
