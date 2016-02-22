@@ -4,8 +4,8 @@ body {
     text-align: center;
     font-family: Delius;
     background-color: #EDFEDF;
-    background: url("../img/project-bg.jpg") 50% 50%;
-    background-size: cover; 
+    background: url("../img/project-bg.jpg") 50% 50% no-repeat fixed;
+    background-size: cover;
 }
 
 .container {
