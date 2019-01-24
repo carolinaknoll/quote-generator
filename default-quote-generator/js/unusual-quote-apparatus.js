@@ -40,6 +40,8 @@ $(document).ready(function() {
     $('.author').text(quoteAuthor[1]);
   }
 
-  $("button").click(generateNewQuote);
-
+  $("#new-quote").click(generateNewQuote);
+  $('#tweet-quote').on('click', function() {
+    window.open(`https://twitter.com/intent/tweet?text=${$('.saying').text()} - ${$('.author').text()}`);
+  })
 });

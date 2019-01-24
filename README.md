@@ -6,7 +6,7 @@
 
 ***
 
-This project is part of the FreeCodeCamp [Frontend Libraries Projects](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine/), and follows a series of requested user stories (WIP).
+This project is part of the FreeCodeCamp [Frontend Libraries Projects](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine/), and follows a series of requested user stories. Please add `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>` to the `index.html` files and select the Random Quote Machine test suite to see the below tests pass.
 
 - User Story #1: I can see a wrapper element with a corresponding id="quote-box".
 - User Story #2: Within #quote-box, I can see an element with a corresponding id="text".
