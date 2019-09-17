@@ -11,38 +11,3 @@ body {
   max-width: 1140px;
   margin: 0 auto;
 }
-
-.title {
-  text-align: center;
-  font-size: 4em;
-  color: #333300;
-  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.4);
-  margin-top: 50px;
-  font-weight: normal;
-}
-
-.subtitle {
-  text-align: center;
-  font-size: 1.5em;
-  line-height: 1.5;
-  margin-top: -30px;
-  color: #000;
-}
-
-@media screen and (max-width: 315px) {
-  .title {
-    font-size: 2.5em;
-    line-height: 1;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .title {
-    font-size: 3em;
-    line-height: 1;
-  }
-  .subtitle {
-    font-size: 1.4em;
-    line-height: 1.3;
-  }
-}
