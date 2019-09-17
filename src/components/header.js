@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Header extends Component {
-  render() {
-    return (
-      <header className="header">
-        <h1 className="title">{this.props.title}</h1>
-      </header>
-    );
-  }
+export default function Header() {
+  return (
+    <header className="header">
+      <h1 className="title">Lucky Quote Generator</h1>
+
+      <h2 className="subtitle">Feeling looped? </h2>
+      <h2 className="subtitle">Attract good luck to your life with those lucky quotes.</h2>
+      <h2 className="subtitle">Just click the button and choose your best!</h2>
+    </header>
+  );
 }
