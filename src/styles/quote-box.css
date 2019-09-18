@@ -3,56 +3,50 @@
   flex: 1 0 auto;
 }
 
-.quote-button {
-  font-family: Delius;
-  font-size: 2em;
+.quote-box-container .quote-button {
+  background: #FFF;
+  border-radius: 10px;
+  border: 2px solid #006600;
   color: #006600;
   cursor: pointer;
-  text-transform: uppercase;
-  background: #FFF;
-  border: 2px solid #006600;
-  border-radius: 10px;
+  font-family: 'Delius', cursive;
+  font-size: 2em;
   margin: 50px;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
-.quote-button:hover {
+.quote-box-container .quote-button:hover {
   background: #E1DFDF;
-  border: 4px solid #006600;
-  transform: scale(1.1);
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
 }
 
-.quote-box {
-  font-size: 1.5em;
-  text-align: center;
+.quote-box-container .quote-box {
   background-color: #191a00;
+  border-radius: 10px;
+  box-shadow: -10px 10px 20px rgba(100, 100, 100, 0.9);
+  color: #FFF;
+  font-size: 1.5em;
+  min-height: 120px;
+  margin: auto;
+  max-width: 600px;
   opacity: 0.8;
   padding: 20px;
-  margin: 0 auto;
-  height: 120px;
-  max-width: 600px;
-  border-radius: 10px;
-  color: #FFF;
-  box-shadow: -10px 10px 20px rgba(100, 100, 100, 0.9);
+  position: relative;
 }
 
-#tweet-quote .quote-button {
+.quote-box-container #tweet-quote .quote-button {
   cursor: pointer;
   font-size: 1em;
   margin: 10px auto;
   display: block;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: .5em;
 }
 
-.author {
+.quote-box-container .quote-box .author {
   font-size: 0.8em;
   font-style: italic;
-}
-
-@media screen and (max-width: 850px) {
-  .quote-box {
-    height: 100%;
-  }
 }

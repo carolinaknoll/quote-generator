@@ -26,7 +26,7 @@ export default class SearchComponent extends Component {
           <span className="author" id="author"></span>
 
           <a id="tweet-quote" title="Tweet quote!" href="https://twitter.com/intent/tweet" target="_blank" rel="noopener noreferrer">
-            <button className="quote-button" id="new-quote"><i className="fa fa-twitter"></i></button>
+            <button className="quote-button" id="new-quote">Tweet quote! <i className="fa fa-twitter"></i></button>
           </a>
         </div>
       </div>
