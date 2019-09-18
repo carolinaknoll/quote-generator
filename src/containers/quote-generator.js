@@ -6,13 +6,15 @@ import Footer from '../components/footer';
 export default class QuoteGenerator extends Component {
   render() {
     return (
-      <div>
-        <div className="content-container">
-          <Header/>
-
+      <div className="content-container">
+        <div className="quote-generator-container">
+          <Header />
           <QuoteBox />
         </div>
-        <Footer />
+
+        <div className="footer-container">
+          <Footer />
+        </div>
       </div>
     );
   }

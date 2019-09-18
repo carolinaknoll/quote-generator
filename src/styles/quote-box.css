@@ -1,3 +1,8 @@
+.quote-generator-container {
+  margin: 0 15px;
+  flex: 1 0 auto;
+}
+
 .quote-button {
   font-family: Delius;
   font-size: 2em;

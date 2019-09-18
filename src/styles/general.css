@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  width: 100%;
+}
+
 body {
   text-align: center;
   font-family: Delius;
@@ -10,4 +15,11 @@ body {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: auto;
 }
