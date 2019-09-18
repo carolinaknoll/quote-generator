@@ -5,16 +5,9 @@ html, body {
 
 body {
   text-align: center;
-  font-family: Delius;
-  background-color: #EDFEDF;
+  font-family: 'Delius', cursive;
   background: url("../images/bg.jpg") 50% 50% no-repeat fixed;
   background-size: cover;
-}
-
-.container {
-  width: 100%;
-  max-width: 1140px;
-  margin: 0 auto;
 }
 
 .content-container {
