@@ -69,3 +69,14 @@
 .footer .freecodecamp .fa:hover {
   background-color: #009933;
 }
+
+@media (max-width: 768px) {
+  .footer .social-list .fa {
+    font-size: 1em;
+    height: 25px;
+    line-height: 1.2;
+    margin: 2px;
+    padding: 8px;
+    width: 25px;
+  }
+}
