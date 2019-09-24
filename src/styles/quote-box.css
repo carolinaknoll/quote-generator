@@ -7,12 +7,23 @@
   background: #FFF;
   border-radius: 10px;
   border: 2px solid #006600;
+  bottom: 0;
   color: #006600;
   cursor: pointer;
+  display: block;
   font-family: 'Delius', cursive;
-  font-size: 2em;
-  margin: 50px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  position: absolute;
   transition: 0.5s;
+}
+
+.quote-box-container .quote-button.new-quote {
+  right: .5em;
+}
+
+.quote-box-container .quote-button.tweet-quote {
+  left: .5em;
 }
 
 .quote-box-container .quote-button:hover {
@@ -35,18 +46,14 @@
   position: relative;
 }
 
-.quote-box-container #tweet-quote .quote-button {
-  cursor: pointer;
-  font-size: 1em;
-  margin: 10px auto;
-  display: block;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  right: .5em;
-}
-
 .quote-box-container .quote-box .author {
   font-size: 0.8em;
   font-style: italic;
+}
+
+@media (max-width: 410px) {
+  .quote-box-container .quote-button {
+    margin: 10px auto;
+    position: initial;
+  }
 }

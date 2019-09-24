@@ -17,17 +17,18 @@ export default class SearchComponent extends Component {
 	render() {
     return (
       <div className="quote-box-container">
-        <button className="quote-button" id="new-quote" title="Get new quote!" onClick={this.getNewQuote}>
-          Try my luck!
-        </button>
 
         <div className="quote-box" id="quote-box">
           <span className="quote" id="text"></span>
           <span className="author" id="author"></span>
 
           <a id="tweet-quote" title="Tweet quote!" href="https://twitter.com/intent/tweet" target="_blank" rel="noopener noreferrer">
-            <button className="quote-button" id="new-quote">Tweet quote! <i className="fa fa-twitter"></i></button>
+            <button className="quote-button tweet-quote">Tweet quote! <i className="fa fa-twitter"></i></button>
           </a>
+
+          <button className="quote-button new-quote" id="new-quote" title="Get new quote!" onClick={this.getNewQuote}>
+            New quote! <i className="fa fa-magic"></i>
+          </button>
         </div>
       </div>
     );
